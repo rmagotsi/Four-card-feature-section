@@ -1,0 +1,54 @@
+h2{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  line-height: .5;
+  font-size: 2em;
+}
+#first-line{
+  font-weight: 200;
+}
+#second-line{
+  font-weight: 600;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+.sub-heading{
+  font-weight: 200;
+  line-height: 1;
+  text-align: center;
+}
+.para-title{
+  font-weight: 400;
+}
+.para-content{
+  font-weight: 200;
+}
+.grid-container{
+  background-color: white;
+  display: grid;
+}
+.container-one{
+  border: solid;
+  border-top-color: hsl(180, 62%, 55%);  
+}
+.container-two{
+  border: solid;
+  border-top-color: hsl(0, 78%, 62%);
+}
+.container-three{
+  border: solid;
+  border-top-color: hsl(34, 97%, 64%);
+}
+.container-four{
+  border: solid;
+  border-top-color: hsl(212, 86%, 64%)
+}
+.attribution {
+  font-size: 11px; text-align: center;
+ }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
