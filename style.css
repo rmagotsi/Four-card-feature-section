@@ -4,6 +4,9 @@ h2{
   line-height: .5;
   font-size: 2em;
 }
+.top-container{
+  display: block;
+}
 #first-line{
   font-weight: 200;
 }
@@ -15,16 +18,23 @@ body{
     font-size: 15px;
     background-color: hsl(0, 0%, 98%);
 }
+.center-head{
+  display: flex;
+  justify-content: center;
+}
 .sub-heading{
   font-weight: 200;
   line-height: 1;
-  text-align: center;
+  color: hsl(229, 6%, 66%);
+  text-align: justify;
+
 }
 .para-title{
   font-weight: 400;
 }
 .para-content{
   font-weight: 200;
+  color: hsl(229, 6%, 66%);
 }
 .grid-container{
   background-color: white;
@@ -32,7 +42,7 @@ body{
 }
 .container-one{
   border: solid;
-  border-top-color: hsl(180, 62%, 55%);  
+  border-top-color: hsl(180, 62%, 55%);
 }
 .container-two{
   border: solid;
@@ -51,4 +61,10 @@ body{
  }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 749px){
+h2{
+  line-height: 1em;
+}
+
 }
