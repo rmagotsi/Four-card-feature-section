@@ -18,6 +18,10 @@ body{
     font-size: 15px;
     background-color: hsl(0, 0%, 98%);
 }
+img{
+  float: right;
+  padding: 60px 25px 0px 0px;
+}
 .center-head{
   display: flex;
   justify-content: center;
@@ -36,25 +40,32 @@ body{
   font-weight: 200;
   color: hsl(229, 6%, 66%);
 }
-.grid-container{
+.grid-wrapper{
   background-color: white;
   display: grid;
+  grid-template-columns: repeat(3,350px);
+  grid-auto-rows: 250px;
+
 }
 .container-one{
   border: solid;
   border-top-color: hsl(180, 62%, 55%);
+  padding:25px 0px 0px 25px;
 }
 .container-two{
   border: solid;
   border-top-color: hsl(0, 78%, 62%);
+  padding:25px 0px 0px 25px;
 }
 .container-three{
   border: solid;
   border-top-color: hsl(34, 97%, 64%);
+  padding:25px 0px 0px 25px;
 }
 .container-four{
   border: solid;
-  border-top-color: hsl(212, 86%, 64%)
+  border-top-color: hsl(212, 86%, 64%);
+  padding:25px 0px 0px 25px;
 }
 .attribution {
   font-size: 11px; text-align: center;
