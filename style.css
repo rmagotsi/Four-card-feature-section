@@ -1,7 +1,5 @@
 html{
-  margin:0;
-  padding: 0;
-
+    box-sizing: border-box;
 
 }
 h2{
@@ -26,7 +24,7 @@ body{
 }
 img{
   float: right;
-  padding: 60px 25px 0px 0px;
+  padding: 40px 25px 0px 0px;
 }
 .center-head{
   display: flex;
@@ -48,12 +46,12 @@ img{
 }
 .grid-wrapper{
   display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(3,350px);
-  grid-auto-columns: 250px;
-  grid-auto-rows: minmax(150px, auto);
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
+justify-content: center;
+grid-template-columns: repeat(3,350px);
+grid-auto-columns: 250px;
+grid-template-rows:minmax(150px, auto);
+grid-column-gap: 40px;
+grid-row-gap: 40px;
 }
 .container-one{
   border: solid;
@@ -61,8 +59,7 @@ img{
   border-color: hsl(180, 62%, 55%) hsl(0, 0%, 98%) hsl(0, 0%, 98%) hsl(0, 0%, 98%);
   padding:25px 0px 0px 25px;
   grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 3;
+grid-row-start: span 2;
   align-self: center;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
@@ -87,8 +84,7 @@ img{
   border-color: hsl(212, 86%, 64%) hsl(0, 0%, 98%) hsl(0, 0%, 98%) hsl(0, 0%, 98%);
   padding:25px 0px 0px 25px;
   grid-column-start: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-start: span 2;
   align-self: center;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
